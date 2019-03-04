@@ -1,5 +1,5 @@
 
-# Laravel ReCAPTCHA v2 and v3  
+# Laravel reCAPTCHA v2 and v3  
 Advanced and painless Google reCAPTCHA package for Laravel  
 
 Available reCAPTCHA versions:  
@@ -190,8 +190,9 @@ Insert  `recaptchaApiV3JsScriptTag($config)`  helper before closing  `</head>`  
 `$config`  is required and is an associative array containing configuration parameters required for the JavaScript validation handling.
 
 The keys are:
+
 | Key | Required | Description | Default value |
-|--|--|--|--|
+|---|---|---|---|
 | `action` | no | is the  `action`  parameter required by reCAPTCHA v3 API ([further info](https://developers.google.com/recaptcha/docs/v3)) | `homepage` |
 | `custom_validation` | no | is the name of your custom callback javascript function who will override the built-in javascript validation system of this package | empty string |
 | `callback_then` | no | (overlooked if  `custom_validation`is set) is the name of your custom callback javascript function called by the built-in javascript validation system of this package in case of response success | empty string |
