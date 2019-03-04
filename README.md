@@ -62,7 +62,7 @@ Open `config/recaptcha.php` configuration file and set version:
 
 `site_key` and `secret_key` are reCAPTCHA keys you have to create in order to perform Google API authentication. For more information about Site Key and Secret Key please visit Google reCAPTCHA developer documentation  
   
-version indicates the reCAPTCHA version (supported: v3|v2|invisible). Get more info about reCAPTCHA version at https://developers.google.com/recaptcha/docs/versions.  
+`version` indicates the reCAPTCHA version (supported: v3|v2|invisible). Get more info about reCAPTCHA version at https://developers.google.com/recaptcha/docs/versions.  
   
 `skip_ip` is a whitelist of IP addresses that, if recognized, disable the reCAPTCHA validation (return always true) and if you embed JS code in blade (view) file NO validation call will be performed.  
   
@@ -79,7 +79,7 @@ Have you updated?
 If you are migrating from an older version add `skip_ip` array in `recaptcha.php` configuration file.  
   
 Customize error message  
-Just for v2 and invisible users.  
+Just for _v2_ and _invisible_ users.  
   
 Before starting please add the validation message to resources/lang/[LANG]/validation.php file  
 
