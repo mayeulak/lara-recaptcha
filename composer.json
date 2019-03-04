@@ -1,6 +1,6 @@
 {
     "name": "bedigit/lara-recaptcha",
-    "description": "Advanced ReCaptcha package for Laravel",
+    "description": "Advanced reCAPTCHA package for Laravel",
     "license": "MIT",
     "authors": [
         {
