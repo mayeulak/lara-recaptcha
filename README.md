@@ -11,7 +11,7 @@ Available reCAPTCHA versions:
 ## System requirements  
 | Package version | PHP version | Laravel version |  
 |-----------------|-------------|-----------------|  
-| dev-master             | 7.1 or greater | 5.5 or greater |  
+| dev-master             | 7.2.5 or greater | 6.20.13 or greater |  
   
   
 ## Composer  
