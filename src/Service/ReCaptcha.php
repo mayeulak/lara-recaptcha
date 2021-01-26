@@ -249,6 +249,9 @@ class ReCaptcha
 				
 			}
 			
+			// Fixing invalid action name in recaptcha v3
+			$action = str_replace(['-', '.'], '', $action);
+			
 			$html .= "<script>
 			var csrfToken = document.head.querySelector('meta[name=\"csrf-token\"]');
 			grecaptcha.ready(function() {
